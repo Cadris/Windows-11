@@ -1,16 +1,17 @@
 .background{
     background-image: url('./Assets/bg.jpeg');
+    background-repeat: no-repeat;
     height: 100vh;
     bottom: 0px;
-    /* width: auto; */
     background-size: cover;
+    background-position: center;
     overflow: hidden;
     z-index: -1000;
 }
 .taskbar{
     width: 100%;
     background-color: #f3f3f3;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: center;
